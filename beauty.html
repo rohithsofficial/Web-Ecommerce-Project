@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Beauty and Personal Care - Product Details</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+
+    .product-container {
+      width: 80%;
+      margin: auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .product {
+      display: flex;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .product-image {
+      flex: 1;
+      text-align: center;
+    }
+
+    .product-image img {
+      max-width: 100%;
+      max-height: 200px;
+      border-radius: 5px;
+    }
+
+    .product-info {
+      flex: 2;
+      padding: 0 20px;
+    }
+
+    .product-name {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .product-description {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    .specification-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    .specification-table th,
+    .specification-table td {
+      padding: 8px;
+      border: 1px solid #ddd;
+    }
+
+    .specification-table th {
+      background-color: #f5f5f5;
+    }
+
+    .action-buttons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding: 20px;
+      background-color: #f5f5f5;
+      border-radius: 0 0 10px 10px;
+    }
+
+    .comment-section {
+      width: 100%;
+      margin-top: 20px;
+      padding: 20px;
+      background-color: #f5f5f5;
+      border-radius: 10px;
+    }
+
+    .comment {
+      margin-bottom: 15px;
+      padding: 10px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .comment-author {
+      font-weight: bold;
+    }
+
+    .comment-text {
+      margin-top: 5px;
+    }
+
+    .write-comment {
+      margin-top: 20px;
+    }
+
+    .write-comment h3 {
+      margin-bottom: 10px;
+    }
+
+    .write-comment input[type="text"],
+    .write-comment textarea,
+    .write-comment button {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    
+    /* Different styles for this page */
+    .product-container {
+      background-color: #ffe0b2;
+    }
+
+    .product-info {
+      color: #333;
+    }
+
+    .action-buttons {
+      background-color: #ffcc80;
+    }
+
+    .comment-section {
+      background-color: #ffcc80;
+    }
+
+    .comment {
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="product-container">
+    <div class="product">
+      <div class="product-image">
+        <img src="loreal_revitalift_serum.jpg" alt="L'Oréal Paris Revitalift Serum">
+      </div>
+      <div class="product-info">
+        <div class="product-name">L'Oréal Paris Revitalift Serum</div>
+        <div class="product-description">
+          A skincare product from L'Oréal Paris, known for its anti-aging properties and ability to reduce the appearance of fine lines and wrinkles.
+        </div>
+        <table class="specification-table">
+          <tr>
+            <th>Brand</th>
+            <th>Benefits</th>
+          </tr>
+          <tr>
+            <td>L'Oréal Paris</td>
+            <td>Anti-Aging, Fine Line Reduction</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="action-buttons">
+     <a href="cart.html"><button class="button">Add to Cart</button></a> 
+      <button>Buy Now</button>
+    </div>
+    <div class="comment-section">
+      <div class="comment">
+        <div class="comment-author">SkincareEnthusiast</div>
+        <div class="comment-text">I've seen a noticeable improvement in my skin's texture and appearance. Highly recommend!</div>
+      </div>
+      <div class="comment">
+        <div class="comment-author">AgelessBeauty</div>
+        <div class="comment-text">This serum is a game-changer for reducing fine lines. It's become a staple in my routine.</div>
+      </div>
+      <div class="write-comment">
+        <h3>Write a Comment</h3>
+        <input type="text" placeholder="Your name">
+        <textarea placeholder="Your comment"></textarea>
+        <button>Submit</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="product-container">
+    <div class="product">
+      <div class="product-image">
+        <img src="mac_ruby_woo_lipstick.jpg" alt="MAC Cosmetics Ruby Woo Lipstick">
+      </div>
+      <div class="product-info">
+        <div class="product-name">MAC Cosmetics Ruby Woo Lipstick</div>
+        <div class="product-description">
+          A popular lipstick shade from MAC Cosmetics, celebrated for its bold red color and long-lasting formula, perfect for a statement lip look.
+        </div>
+        <table class="specification-table">
+          <tr>
+            <th>Brand</th>
+            <th>Color</th>
+          </tr>
+          <tr>
+            <td>MAC Cosmetics</td>
+            <td>Ruby Woo (Red)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="action-buttons">
+      <a href="cart.html"><button class="button">Add to Cart</button></a> 
+      <button>Buy Now</button>
+    </div>
+    <div class

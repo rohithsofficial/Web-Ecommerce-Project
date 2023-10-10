@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+           // <!-- largest no in  3 numbers by using javascript -->
+        // var a=5,b=1,c=40,Result=Math.max(a,b,c);
+        // document.write("largest in two numbers="+Result );
+        // if condition
+        // var a=parseInt(prompt("Enter a first number"));
+    //  var b=parseInt(prompt("Enter a second number"));
+    //  var  c= prompt("if you want find largest no enter 1 or smallest no enter 0");
+    //  if (c==1) {
+    //     if(a>b)
+    //     alert("\n"+a+" is largest");
+    // else
+    // alert(b+"\nis a largest");
+    //  }
+    //  if (c==0) {
+    //     if(a<b)
+    //     alert("\n"+a+" is smallest");
+    // else
+    // alert(b+"\nis a smallest");
+    //  }
+    // alert("the sum of " + a + "and " +b+"\nis="+(a+b)+ "<br>" +"the  of  subscraction " + a + "and " +b+"\nis="+(a-b) + "<br>" +"the mul of " + a + "and " +b+"\nis="+(a*b) +"the division of " + a + "and " +b+"\nis="+(a/b );
+    
+    var a = prompt("Enter a coefficient of x^2:");
+    var b =  prompt("Enter a coefficient of x:");
+    var c= prompt("Enter a number:");
+    var d=parseInt((b*b)-(4*a*c));
+   // document.write(d);
+   typeof d;
+    if(d>0) {
+        var x=(-b+Math.sqrt(d))/(2*a);
+        var y=(-b-Math.sqrt(d))/(2*a);
+        alert("the roots are real and distinct.<br>roots are:" +x + and + y);
+    }
+    else if(d==0) {
+        var x=(-b)(2*a);
+        alert("the roots are real and same.<br>roots are:" +x + and + x);
+
+    }
+    else {
+        var x =(-b)/(2*a);
+        var y = (Math.sqrt(-d))/(2*a);
+        alert("the roots are imaginary and distinct.<br>roots are:" +x + "+i" +y + and + x + "-i" + y);
+
+    }
+     </script>
+</body>
+</html>

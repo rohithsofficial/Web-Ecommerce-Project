@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+var a = parseInt(prompt("Enter a coefficient of x^2:"));
+var b = parseInt(prompt("Enter a coefficient of x:"));
+var c = parseInt(prompt("Enter a number:"));
+var d = (b * b) - (4 * a * c);
+
+if (d > 0) {
+    var x = ((-b + Math.sqrt(d)) / (2 * a)).toFixed(2);
+    var y = ((-b - Math.sqrt(d)) / (2 * a)).toFixed(2);
+    alert("The roots are real and distinct.\nRoots are:\n " + x + " \n " + y);
+} else if (d == 0) {
+    var x = (-b / (2 * a)).toFixed(2);
+    alert("The roots are equal and real.\nRoots are:\n" + x + " \n " + x);
+} else {
+    var x = (-b / (2 * a)).toFixed(2);
+    var y = (Math.sqrt(-d) / (2 * a)).toFixed(2);
+    alert("The roots are imaginary and distinct.\nRoots are:\n" + x + " + i" + y + " \n" + x + " - i" + y);
+}
+
+   </script> 
+   <!-- <p>&sup2;</p> -->
+</body>
+</html>

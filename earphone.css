@@ -1,0 +1,133 @@
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+   header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  main {
+    padding: 20px;
+  }
+  
+  .product {
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-details {
+    flex: 1;
+  }
+  
+  .product-details h2 {
+    margin-bottom: 10px;
+  }
+  
+  .product-details img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    height: 300px;
+    width: 300px;
+  }
+  
+  .product-details p {
+    margin: 10px 0;
+  }
+  
+  .product-details table {
+    margin-top: 10px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .product-details th, .product-details td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .add-to-cart, .buy-now {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .add-to-cart a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .add-to-cart:hover, .buy-now:hover {
+    background-color: #0056b3;
+  }
+  
+  .add-to-cart:active, .buy-now:active {
+    background-color: #004080;
+  }
+  
+  .product-comments {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .comment {
+    margin: 10px 0;
+    border-left: 2px solid #007bff;
+    padding-left: 10px;
+  }
+  
+  .add-comment textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: vertical;
+  }
+  
+  .add-comment button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 10px;
+  }
+  
+  .add-comment button:hover {
+    background-color: #0056b3;
+  }
+  
+  .add-comment button:active {
+    background-color: #004080;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  

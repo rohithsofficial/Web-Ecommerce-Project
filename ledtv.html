@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LED TV Details</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .product-details {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      border-radius: 15px;
+    }
+
+    .product-details img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .sony-product {
+      background-color: #2980b9;
+      color: #fff;
+    }
+
+    .samsung-product {
+      background-color: #e74c3c;
+      color: #fff;
+    }
+
+    table {
+      width: 100%;
+      margin-bottom: 20px;
+      border-collapse: collapse;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .button {
+      padding: 10px 20px;
+      background-color: #3498db;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 0 10px;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #2980b9;
+    }
+
+    .comments {
+      text-align: left;
+      margin-top: 20px;
+    }
+
+    .comment {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+    }
+
+    .comment-form {
+      margin-top: 20px;
+    }
+
+    .comment-form textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .comment-form button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .comment-form button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="product-details sony-product">
+    <h1>Sony Bravia X900H</h1>
+    <img src="sony_bravia_x900h.jpg" alt="Sony Bravia X900H">
+    <p>
+      The Sony Bravia X900H is a high-end LED TV with impressive picture quality and smart features.
+      Its 4K resolution and advanced color technologies deliver a stunning viewing experience.
+    </p>
+    <h2>Specifications</h2>
+    <table>
+      <tr>
+        <th>Model</th>
+        <th>Display Size</th>
+        <th>Resolution</th>
+      </tr>
+      <tr>
+        <td>Sony Bravia X900H 55</td>
+        <td>55 inches</td>
+        <td>4K Ultra HD</td>
+      </tr>
+      <tr>
+        <td>Sony Bravia X900H 65</td>
+        <td>65 inches</td>
+        <td>4K Ultra HD</td>
+      </tr>
+    </table>
+    <div class="button-container">
+      <button class="button">Add to Cart</button>
+      <button class="button">Buy Now</button>
+    </div>
+    <div class="comments">
+      <h2>Comments</h2>
+      <div class="comment">
+        <p><strong>User222:</strong> The Sony Bravia X900H has incredible color accuracy and a sleek design.</p>
+      </div>
+      <div class="comment">
+        <p><strong>Cinephile:</strong> The 65-inch model is perfect for a home theater setup.</p>
+      </div>
+      <h2>Write a Comment</h2>
+      <form class="comment-form">
+        <textarea rows="4" cols="50" placeholder="Write your comment here"></textarea>
+        <br>
+        <button class="button">Submit Comment</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="product-details samsung-product">
+    <h1>Samsung QLED Q80T</h1>
+    <img src="samsung_qled_q80t.jpg" alt="Samsung QLED Q80T">
+    <p>
+      The Samsung QLED Q80T offers an immersive viewing experience with vibrant colors and deep blacks.
+      With its Quantum Dot technology and 4K resolution, it's ideal for watching movies and playing games.
+    </p>
+    <h2>Specifications</h2>
+    <table>
+      <tr>
+        <th>Model</th>
+        <th>Display Size</th>
+        <th>Resolution</th>
+      </tr>
+      <tr>
+        <td>Samsung QLED Q80T 55</td>
+        <td>55 inches</td>
+        <td>4K Ultra HD</td>
+      </tr>
+      <tr>
+        <td>Samsung QLED Q80T 65</td>
+        <td>65 inches</td>
+        <td>4K Ultra HD</td>
+      </tr>
+    </table>
+    <div class="button-container">
+        <a href="cart.html"><button>Add to Cart</button></a>
+      <button class="button">Buy Now</button>
+    </div>
+    <div class="comments">
+      <h2>Comments</h2>
+      <div class="comment">
+        <p><strong>User333:</strong> The Samsung QLED Q80T is a great choice for gaming with its low input lag.</p>
+      </div>
+      <div class="comment">
+        <p><strong>AVEnthusiast:</strong> The Quantum Dot technology really enhances the color accuracy of this TV.</p>
+      </div>
+      <h2>Write a Comment</h2>
+      <form class="comment-form">
+        <textarea rows="4" cols="50" placeholder="Write your comment here"></textarea>
+        <br>
+        <button class="button">Submit Comment</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

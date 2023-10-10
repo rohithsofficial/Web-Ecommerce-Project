@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Apparel - Product Details</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+
+    .product-container {
+      width: 80%;
+      margin: auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .product {
+      display: flex;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .product-image {
+      flex: 1;
+      text-align: center;
+    }
+
+    .product-image img {
+      max-width: 100%;
+      max-height: 200px;
+      border-radius: 5px;
+    }
+
+    .product-info {
+      flex: 2;
+      padding: 0 20px;
+    }
+
+    .product-name {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .product-description {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    .specification-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    .specification-table th,
+    .specification-table td {
+      padding: 8px;
+      border: 1px solid #ddd;
+    }
+
+    .specification-table th {
+      background-color: #f5f5f5;
+    }
+
+    .action-buttons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding: 20px;
+      background-color: #f5f5f5;
+      border-radius: 0 0 10px 10px;
+    }
+
+    .comment-section {
+      width: 100%;
+      margin-top: 20px;
+      padding: 20px;
+      background-color: #f5f5f5;
+      border-radius: 10px;
+    }
+
+    .comment {
+      margin-bottom: 15px;
+      padding: 10px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .comment-author {
+      font-weight: bold;
+    }
+
+    .comment-text {
+      margin-top: 5px;
+    }
+
+    .write-comment {
+      margin-top: 20px;
+    }
+
+    .write-comment h3 {
+      margin-bottom: 10px;
+    }
+
+    .write-comment input[type="text"],
+    .write-comment textarea,
+    .write-comment button {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .social-media {
+    margin-top: 10px;
+  }
+  
+  .social-media a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .social-media img {
+    width: 30px; 
+    height: 30px;
+    transition: transform 0.3s;
+    border-radius: 30%;
+  }
+
+  .social-media a:hover img {
+    transform: scale(1.3);
+  }
+  
+
+  </style>
+</head>
+<body>
+  <div class="product-container">
+    <div class="product">
+      <div class="product-image">
+        <img src="floral_dress.jpg" alt="Floral Maxi Dress">
+      </div>
+      <div class="product-info">
+        <div class="product-name">Women's Floral Maxi Dress</div>
+        <div class="product-description">
+          A long, flowing dress with a floral print, perfect for a casual summer look or even a special occasion.
+        </div>
+        <table class="specification-table">
+          <tr>
+            <th>Type</th>
+            <th>Color</th>
+            <th>Size</th>
+          </tr>
+          <tr>
+            <td>Maxi Dress</td>
+            <td>Floral</td>
+            <td>Various</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="action-buttons">
+      <a href="cart.html"><button class="button">Add to Cart</button></a> 
+      <button>Buy Now</button>
+    </div>
+    <div class="comment-section">
+      <div class="comment">
+        <div class="comment-author">User123</div>
+        <div class="comment-text">I love this dress! It's so comfortable and elegant.</div>
+      </div>
+      <div class="comment">
+        <div class="comment-author">Fashionista23</div>
+        <div class="comment-text">The floral pattern is gorgeous. Perfect for summer events.</div>
+      </div>
+      <div class="write-comment">
+        <h3>Write a Comment</h3>
+        <input type="text" placeholder="Your name">
+        <textarea placeholder="Your comment"></textarea>
+        <button>Submit</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="product-container">
+    <div class="product">
+      <div class="product-image">
+        <img src="denim_jeans.jpg" alt="Slim Fit Denim Jeans">
+      </div>
+      <div class="product-info">
+        <div class="product-name">Men's Slim Fit Denim Jeans</div>
+        <div class="product-description">
+          A pair of well-fitted denim jeans that can be worn for various occasions, whether it's a casual outing or a night out with friends.
+        </div>
+        <table class="specification-table">
+          <tr>
+            <th>Type</th>
+            <th>Color</th>
+            <th>Size</th>
+          </tr>
+          <tr>
+            <td>Denim Jeans</td>
+            <td>Blue</td>
+            <td>Various</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="action-buttons">
+      <a href="cart.html"><button class="button">Add to Cart</button></a> 
+      <button>Buy Now</button>
+    </div>
+    <div class="comment-section">
+      <div class="comment">
+        <div class="comment-author">FashionGuy</div>
+        <div class="comment-text">These jeans are my favorite! They fit perfectly and look stylish.</div>
+      </div>
+      <div class="comment">
+        <div class="comment-author">StyleMaven</div>
+        <div class="comment-text">The slim fit is amazing. Great choice for a trendy look.</div>
+      </div>
+      <div class="write-comment">
+        <h3>Write a Comment</h3>
+        <input type="text" placeholder="Your name">
+        <textarea placeholder="Your comment"></textarea>
+        <button>Submit</button>
+      </div>
+    </div>
+  </div>
+
+  foo
+</body>
+</html>

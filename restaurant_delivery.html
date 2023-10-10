@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Swiggy - Restaurant Delivery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+
+    .product-details {
+      width: 80%;
+      margin: auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+    }
+
+    .product-image {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .product-image img {
+      max-width: 100%;
+      max-height: 300px;
+      border-radius: 5px;
+    }
+
+    .product-name {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .product-description {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    .specification-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    .specification-table th,
+    .specification-table td {
+      padding: 8px;
+      border: 1px solid #ddd;
+    }
+
+    .specification-table th {
+      background-color: #f5f5f5;
+    }
+
+    .action-buttons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding: 20px;
+      background-color: #f5f5f5;
+      border-radius: 0 0 10px 10px;
+    }
+
+    .comment-section {
+      width: 100%;
+      margin-top: 20px;
+      padding: 20px;
+      background-color: #f5f5f5;
+      border-radius: 10px;
+    }
+
+    .comment {
+      margin-bottom: 15px;
+      padding: 10px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .comment-author {
+      font-weight: bold;
+    }
+
+    .comment-text {
+      margin-top: 5px;
+    }
+
+    .write-comment {
+      margin-top: 20px;
+    }
+
+    .write-comment h3 {
+      margin-bottom: 10px;
+    }
+
+    .write-comment input[type="text"],
+    .write-comment textarea,
+    .write-comment button {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    /* Unique styles for this page */
+    .product-details {
+      background-color: #e3f3ff;
+    }
+
+    .product-description {
+      color: #333;
+    }
+
+    .action-buttons {
+      background-color: #cce0ff;
+    }
+
+    .comment-section {
+      background-color: #cce0ff;
+    }
+
+    .comment {
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="product-details">
+    <!-- Product 1 -->
+    <div class="product">
+      <div class="product-image">
+        <img src="single_restaurant_orders.jpg" alt="Single Restaurant Orders">
+      </div>
+      <div class="product-name">Single Restaurant Orders</div>
+      <div class="product-description">
+        Users can order food from a specific restaurant of their choice. Swiggy picks up the order from that restaurant and delivers it directly to the customer's location.
+      </div>
+      <table class="specification-table">
+        <tr>
+          <th>Feature</th>
+          <th>Details</th>
+        </tr>
+        <tr>
+          <td>Delivery Method</td>
+          <td>Direct from the restaurant</td>
+        </tr>
+        <tr>
+          <td>Restaurant Selection</td>
+          <td>Choose from a variety of restaurants</td>
+        </tr>
+        <tr>
+          <td>Delivery Time</td>
+          <td>Estimated delivery time displayed</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product">
+      <div class="product-image">
+        <img src="cloud_kitchen_orders.jpg" alt="Cloud Kitchen Orders">
+      </div>
+      <div class="product-name">Cloud Kitchen Orders</div>
+      <div class="product-description">
+        Swiggy also partners with cloud kitchens or virtual restaurants that operate solely for delivery. These kitchens may not have a physical dine-in presence and prepare food exclusively for online orders placed through platforms like Swiggy.
+      </div>
+      <table class="specification-table">
+        <tr>
+          <th>Feature</th>
+          <th>Details</th>
+        </tr>
+        <tr>
+          <td>Delivery Method</td>
+          <td>Delivered from cloud kitchens</td>
+        </tr>
+        <tr>
+          <td>Kitchen Partnerships</td>
+          <td>Exclusive kitchens for online orders</td>
+        </tr>
+        <tr>
+          <td>Food Variety</td>
+          <td>Wide range of cuisines available</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Action buttons -->
+    <div class="action-buttons">
+      <a href="cart.html"><button>Add to Cart</button></a>
+      <a href="cart.html"><button>Buy Now</button></a>
+    </div>
+
+    <!-- Comment section -->
+    <div class="comment-section">
+      <div class="comment">
+        <div class="comment-author">FoodieDude</div>
+        <div class="comment-text">I love the convenience of ordering from my favorite restaurant through Swiggy!</div>
+      </div>
+      <div class="comment">
+        <div class="comment-author">KitchenExplorer</div>
+        <div class="comment-text">Cloud kitchens have opened up a whole new world of cuisine options for me.</div>
+      </div>
+      <div class="write-comment">
+        <h3>Write a Comment</h3>
+        <input type="text" placeholder="Your name">
+        <textarea placeholder="Your comment"></textarea>
+        <button>Submit</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

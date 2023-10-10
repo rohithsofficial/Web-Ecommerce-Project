@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your Cart</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    .cart-container {
+      width: 80%;
+      margin: auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+    }
+
+    .product-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #ddd;
+      padding: 10px 0;
+    }
+
+    .product-details {
+      display: flex;
+      align-items: center;
+    }
+
+    .product-image img {
+      max-width: 50px;
+      max-height: 50px;
+      margin-right: 10px;
+    }
+
+    .product-name {
+      font-weight: bold;
+    }
+
+    .product-description {
+      font-size: 14px;
+      color: #666;
+    }
+
+    .product-quantity {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .product-quantity input[type="number"] {
+      width: 40px;
+      text-align: right;
+      margin-top: 5px;
+    }
+
+    .product-amount {
+      margin-right: 10px;
+    }
+
+    .delivery-address {
+      margin-top: 20px;
+      padding: 20px;
+      background-color: #f5f5f5;
+      border-radius: 10px;
+    }
+
+    .payment-options {
+      margin-top: 20px;
+      padding: 20px;
+      background-color: #f5f5f5;
+      border-radius: 10px;
+    }
+
+    .checkout-button {
+      display: block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: yellow;
+      color: #333;
+      text-align: center;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Cart</h1>
+  </header>
+  <div class="cart-container">
+    <div class="product-item">
+      <div class="product-details">
+        <div class="product-image">
+          <img src="iphone14.jpg" alt="iPhone 14">
+        </div>
+        <div class="product-description">
+          <p>A flagship smartphone known for its powerful performance.</p>
+        </div>
+        <div class="product-name">iPhone 14</div>
+      </div>
+      <div class="product-quantity">
+        Quantity: <input type="number" value="1" min="1">
+      </div>
+      <div class="product-amount">$999</div>
+    </div>
+
+    <div class="product-item">
+      <div class="product-details">
+        <div class="product-image">
+          <img src="nike_air_max_270_react.jpg" alt="Nike Air Max 270 React">
+        </div>
+        <div class="product-description">
+          <p>A popular athletic shoe from Nike.</p>
+        </div>
+        <div class="product-name">Nike Air Max 270 React</div>
+      </div>
+      <div class="product-quantity">
+        Quantity: <input type="number" value="1" min="1">
+      </div>
+      <div class="product-amount">$129</div>
+    </div>
+
+    <div class="product-item">
+      <div class="product-details">
+        <div class="product-image">
+          <img src="puma_tshirt.jpg" alt="Puma Men's Graphic Print T-shirt">
+        </div>
+        <div class="product-description">
+          <p>A trendy t-shirt from Puma with a graphic print.</p>
+        </div>
+        <div class="product-name">Puma Men's Graphic Print T-shirt</div>
+      </div>
+      <div class="product-quantity">
+        Quantity: <input type="number" value="1" min="1">
+      </div>
+      <div class="product-amount">$25</div>
+    </div>
+
+    <div class="product-item">
+      <div class="product-details">
+        <div class="product-image">
+          <img src="cloud_kitchen_orders.jpg" alt="Cloud Kitchen Orders">
+        </div>
+        <div class="product-description">
+          <p>Users can order food from specific restaurants.</p>
+        </div>
+        <div class="product-name">Cloud Kitchen Orders</div>
+      </div>
+      <div class="product-quantity">
+        Quantity: <input type="number" value="1" min="1">
+      </div>
+      <div class="product-amount">$10</div>
+    </div>
+
+    <div class="delivery-address">
+        <h3>Delivery Address</h3>
+        <form>
+          <label for="name">Your Name:</label><br>
+          <input type="text" id="name" name="name" required><br><br>
+  
+          <label for="address">Your Address:</label><br>
+          <textarea id="address" name="address" rows="4" required></textarea><br><br>
+  
+          <label for="city">City:</label><br>
+          <input type="text" id="city" name="city" required><br><br>
+  
+          <label for="state">State:</label><br>
+          <input type="text" id="state" name="state" required><br><br>
+  
+          <label for="zip">ZIP Code:</label><br>
+          <input type="text" id="zip" name="zip" required><br><br>
+       
+      </form>
+    </div>
+
+    <div class="payment-options">
+      <h3>Payment Options</h3>
+      <label><input type="radio" name="payment" value="credit_card"> Credit Card / Debit Card</label><br>
+      <label><input type="radio" name="payment" value="net_banking"> Net Banking</label><br>
+      <label><input type="radio" name="payment" value="upi"> Other UPI Apps</label><br>
+      <label><input type="radio" name="payment" value="emi"> EMI</label><br>
+      <label><input type="radio" name="payment" value="cod"> Cash on Delivery</label>
+    </div>
+    <button class="checkout-button">Checkout</button>
+  </div>
+</body>
+</html>

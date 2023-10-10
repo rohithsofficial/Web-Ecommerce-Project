@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .product {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .product h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .product-image {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .product-description {
+    margin-bottom: 15px;
+  }
+  
+  .product-specs {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+  }
+  
+  .product-specs td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .buttons {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .add-to-cart a  {
+    color: #fff;
+    border: none;
+   text-decoration: none;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .add-to-cart a:hover {
+    background-color: #0056b3;
+  }
+  
+  .buy {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .buy:hover {
+    background-color: #218838;
+  }
+  
+  .comments {
+    margin-top: 30px;
+  }
+  
+  .comment {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .comment h3 {
+    margin: 0;
+    color: #333;
+    
+  }
+  
+  .add-comment {
+    margin-top: 30px;
+  }
+  
+  .add-comment h2 {
+    margin-bottom: 15px;
+  }
+  
+  .add-comment form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .add-comment form input,
+  .add-comment form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .add-comment form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-comment form button:hover {
+    background-color: #0056b3;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .social-media {
+    margin-top: 10px;
+  }
+  
+  .social-media a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .social-media img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+  }
+  
+  .social-media a:hover img {
+    transform: scale(1.2);
+  }
+  
